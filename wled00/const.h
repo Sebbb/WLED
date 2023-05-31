@@ -397,7 +397,7 @@
 #ifdef ESP8266
   #define WLED_PWM_FREQ    880 //PWM frequency proven as good for LEDs
 #else
-  #define WLED_PWM_FREQ  19531
+  #define WLED_PWM_FREQ  300
 #endif
 #endif
 
