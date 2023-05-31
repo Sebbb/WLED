@@ -238,6 +238,7 @@ uint32_t EspalexaDevice::getRGB()
   return _rgb;
 }
 
+/*
 //white channel for RGBW lights. Always 0 unless colormode is ct
 uint8_t EspalexaDevice::getW()
 {
@@ -258,6 +259,7 @@ uint8_t EspalexaDevice::getB()
 {
   return getRGB() & 0xFF;
 }
+*/
 
 uint8_t EspalexaDevice::getLastValue()
 {
